@@ -1,21 +1,23 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
-
+import Image from "next/image";
 
 const ChatBox = () => {
   const messagesEndRef = useRef(null);
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
   const scrollToBottom = () => {
-    messagesEndRef.current && messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
+    messagesEndRef.current &&
+      messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   useEffect(() => {
-    console.log("smooth")
+    console.log("smooth");
     scrollToBottom();
   }, [messages]);
 
-  const handleSendMessage = async () => {
+  const handleSendMessage = async (e) => {
+    e.preventDefault();
     if (newMessage.trim() === "") return;
 
     // Update local state with the user's message
@@ -50,23 +52,34 @@ const ChatBox = () => {
   };
 
   return (
-    <div>
-      <div
-        style={{
-          fontFamily: "Arial, sans-serif",
-          maxWidth: "400px",
-          margin: "0 0 0 auto",
-          padding: "20px",
-          borderLeft: "4px solid black",
-          height: "100vh",
-        }}>
-       
+    <div className='flex'>
+      {/* <div className="" style={{background: csed}}>
+        <img src="" alt="" />
+      </div> */}
+      <div style={{ width: "150vh" }}>
+        helllooo
+        {/* <img
+          src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fresearchersjob.com%2Fregular-faculty-position-in-nita%2F&psig=AOvVaw1QKpfAIs0bCFXTjPb_Gi4Z&ust=1701096382683000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPipsv7z4YIDFQAAAAAdAAAAABAY'
+          alt=''
+        /> */}
+        
+      </div>
+      <div>
+        <div
+          style={{
+            fontFamily: "Arial, sans-serif",
+            maxWidth: "400px",
+            margin: "0 0 0 0",
+            padding: "20px",
+            borderLeft: "4px solid black",
+            height: "100vh",
+          }}>
           <div
             className='overflow-y-scroll'
             style={{
               padding: "20px",
               height: "85vh",
-             
+
               scrollbarColor: "transparent transparent",
             }}>
             {messages.map((message, index) => (
@@ -94,7 +107,7 @@ const ChatBox = () => {
                 )}
               </div>
             ))}
-            <div
+            <form
               className='absolute bottom-5'
               style={{ marginTop: "10px", display: "flex" }}>
               <input
@@ -112,7 +125,7 @@ const ChatBox = () => {
                 }}
               />
               <button
-
+                type='submit'
                 onClick={handleSendMessage}
                 style={{
                   marginLeft: "10px",
@@ -125,10 +138,10 @@ const ChatBox = () => {
                 }}>
                 Send
               </button>
-            </div>
+            </form>
+            <div style={{ marginBottom: 100 }} ref={messagesEndRef} />
           </div>
-          <div style={{ marginBottom: 100 }} ref={messagesEndRef} />
-     
+        </div>
       </div>
     </div>
   );
