@@ -7,23 +7,17 @@
         "Hey",
         "How are you",
         "Is anyone there?",
-        "Hello",
-        "Good day"
+        "Hello"
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": [
-        "Bye",
-        "See you later",
-        "Goodbye"
-      ],
+      "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -32,17 +26,8 @@
     },
     {
       "tag": "thanks",
-      "patterns": [
-        "Thanks",
-        "Thank you",
-        "That's helpful",
-        "Thank's a lot!"
-      ],
-      "responses": [
-        "Happy to help!",
-        "Any time!",
-        "My pleasure"
-      ]
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure, do you have any more questions?"]
     },
     {
       "tag": "items",
@@ -51,36 +36,9 @@
         "What kinds of items are there?",
         "What do you sell?"
       ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
     },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
+
     {
       "tag": "funny",
       "patterns": [
@@ -94,39 +52,23 @@
       ]
     },
     {
-      "tag": "calander",
+      "tag": "calendar",
       "patterns": [
-        "Academic Calander ",
-        "Academic Calander of this year",
+        "Academic calendar ",
+        "Academic calendar of this year",
         "get me academic calnder",
-        "where i can find acedmic calander"
+        "where i can find acedmic calendar"
       ],
       "responses": [
-        "satwick is cool",
-        "get the fuck out of here"
+        "You can find it on NITA website at http://www.nita.ac.in",
+        "here is the link to it https://www.nita.ac.in/academic/academic_calendar"
       ]
     },
     {
-      "tag": "heello ",
-      "patterns": [
-        "xyz ",
-        "member  hello",
-        "tanmay"
-      ],
+      "tag": "department",
+      "patterns": ["How many departments are there?", "no of departments?"],
       "responses": [
-        "answrer",
-        "whsy "
-      ]
-    },
-    {
-      "tag": "cdfghj",
-      "patterns": [
-        "ddd",
-        "dd"
-      ],
-      "responses": [
-        "ddvfcg",
-        "dsfd"
+        "there are total 15 departments in NITA"
       ]
     }
   ]

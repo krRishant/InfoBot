@@ -53,33 +53,76 @@ const ChatBox = () => {
 
   return (
     <div className='flex'>
-      {/* <div className="" style={{background: csed}}>
-        <img src="" alt="" />
-      </div> */}
       <div style={{ width: "150vh" }}>
-        helllooo
-        {/* <img
-          src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fresearchersjob.com%2Fregular-faculty-position-in-nita%2F&psig=AOvVaw1QKpfAIs0bCFXTjPb_Gi4Z&ust=1701096382683000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPipsv7z4YIDFQAAAAAdAAAAABAY'
-          alt=''
-        /> */}
-        
+        <div
+          className='flex ml-2 bg-cyan-50'
+          style={{ height: "45vh", border: "4px" }}>
+          <img
+            src='https://upload.wikimedia.org/wikipedia/commons/a/ac/NIT_AGARTALA_MAIN_GATE.jpg'
+            alt='xyzzzz'
+            width={400}
+          />
+
+          <div className='px-11 pt-10'>
+            <h2 className='text-2xl text-black font-semibold border border-x-8 border-black text-center'>
+              National Institute of Technology, Agartala
+            </h2>
+            <br />
+            <p className='text-base text-justify text-black'>
+              Welcome to the academic haven of innovation and excellence, the
+              National Institute of Technology Agartala. Nestled in the
+              picturesque landscapes of Agartala, our institute stands as a
+              beacon of learning and advancement in the realm of engineering,
+              technology, and science. At NIT Agartala, we foster a culture of
+              intellectual curiosity, where students are not just learners but
+              torchbearers of innovation. Our esteemed faculty, drawn from
+              diverse fields, are dedicated to imparting knowledge that
+              transcends the conventional and prepares our students for the
+              challenges of a dynamic world.
+            </p>
+            {/* </br> */}
+          </div>
+        </div>
+        <div className='mt-5 mx-16'>
+          <h2 className='text-3xl text-center my-5 border border-x-8 border-black text-black font-bold'>
+            InfoBot
+          </h2>
+
+          <p className='text-lg px-5 text-justify text-black'>
+            🎓 Welcome to NIT Agartala Chatbot! 🎉 Embark on a seamless journey
+            of discovery and information with our interactive chatbot! Whether
+            you're a prospective student, a curious parent, or a member of our
+            vibrant community, this virtual assistant is here to answer your
+            questions and provide a glimpse into the heart of NIT Agartala. 🏰
+            Explore Our Campus: Discover the state-of-the-art facilities, lush
+            green spaces, and dynamic learning environments that make NIT
+            Agartala a unique academic haven. 👋 Ready to Begin? Ask Away! Type
+            your questions and let the chatbot be your companion in uncovering
+            the essence of NIT Agartala. Your educational adventure starts here!
+          </p>
+        </div>
       </div>
+
+      {/* chat-box div  */}
       <div>
         <div
           style={{
             fontFamily: "Arial, sans-serif",
             maxWidth: "400px",
-            margin: "0 0 0 0",
+            width: "400px",
+            marginLeft: "2px",
             padding: "20px",
             borderLeft: "4px solid black",
+            borderRight: "4px solid black",
+            borderTop: "4px solid black",
+            borderRadius: "10px",
             height: "100vh",
           }}>
           <div
             className='overflow-y-scroll'
             style={{
-              padding: "20px",
+              padding: "2px",
               height: "85vh",
-
               scrollbarColor: "transparent transparent",
             }}>
             {messages.map((message, index) => (
@@ -92,7 +135,7 @@ const ChatBox = () => {
                       </div>
                     </div>
                     <div className='chat-header'>You</div>
-                    <div className='chat-bubble'>{message.text}</div>
+                    <div className='chat-bubble '>{message.text}</div>
                   </div>
                 ) : (
                   <div className='chat chat-start'>
@@ -109,7 +152,7 @@ const ChatBox = () => {
             ))}
             <form
               className='absolute bottom-5'
-              style={{ marginTop: "10px", display: "flex" }}>
+              style={{ marginTop: "10px", display: "flex", padding: "20px" }}>
               <input
                 type='text'
                 value={newMessage}
