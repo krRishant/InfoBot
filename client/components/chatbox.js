@@ -24,7 +24,7 @@ const ChatBox = () => {
     const updatedMessages = [...messages, { text: newMessage, sender: "user" }];
     setMessages(updatedMessages);
     setNewMessage("");
-    console.log(newMessage);
+    // console.log(newMessage);
     try {
       // Send the user's message to the backend using Axios
       const response = await axios.post(
@@ -41,8 +41,8 @@ const ChatBox = () => {
 
       // Assuming the server responds with a JSON object containing the bot's message
       const responseData = response.data;
-      console.log(response);
-      console.log(responseData);
+      // console.log(response);
+      // console.log(responseData);
       // Update local state with both the user's message and the bot's response
       setMessages([...updatedMessages, { text: responseData, sender: "bot" }]);
     } catch (error) {

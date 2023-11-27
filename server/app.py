@@ -2,6 +2,7 @@ from flask import Flask,request
 from chat_manager import xyz,chat_manager
 from flask_cors import CORS
 from training_manager import trainer
+from train import train_bot
 
 app = Flask(__name__)
 CORS(app)
@@ -39,6 +40,19 @@ def train():
     try:
         trainer(data)
         return "intent successfully added"
+    except Exception as e:
+        print(f"Error in trainer: {e}")
+        return "Internal Server Error", 500 # Return a 500 Internal Server Error response
+    
+
+@app.route('/trainer_bot',methods=['POST'])
+def trainer_bot():
+
+    data = request.get_json()
+    print(data)
+    try:
+        train_bot()
+        return "bot Successfully trained"
     except Exception as e:
         print(f"Error in trainer: {e}")
         return "Internal Server Error", 500 # Return a 500 Internal Server Error response
