@@ -7,7 +7,9 @@
         "Hey",
         "How are you",
         "Is anyone there?",
-        "Hello"
+        "Hello",
+        "hii",
+        "hiiii"
       ],
       "responses": [
         "Hey :-)",
@@ -17,7 +19,11 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -26,8 +32,18 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure, do you have any more questions?"]
+      "patterns": [
+        "Thanks",
+        "Thankyou",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure, do you have any more questions?"
+      ]
     },
     {
       "tag": "items",
@@ -36,14 +52,16 @@
         "What kinds of items are there?",
         "What do you sell?"
       ],
-      "responses": ["We sell coffee and tea", "We have coffee and tea"]
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
     },
-
     {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
-        "Tell me something funny!",
+        "something funny!",
         "Do you know a joke?"
       ],
       "responses": [
@@ -66,9 +84,98 @@
     },
     {
       "tag": "department",
-      "patterns": ["How many departments are there?", "no of departments?"],
+      "patterns": [
+        "How many departments are there?",
+        "no of departments?"
+      ],
       "responses": [
         "there are total 15 departments in NITA"
+      ]
+    },
+    {
+      "tag": "Bad words",
+      "patterns": [
+        "boobs  ",
+        "sex and pussy",
+        "do you wear bra panty ",
+        "What the fuck"
+      ],
+      "responses": [
+        "sorry that seems inappropriate",
+        "you should be carefull with your choice of words"
+      ]
+    },
+    {
+      "tag": "college ",
+      "patterns": [
+        "Nit agartala tell me about",
+        "Nit agartala ?"
+      ],
+      "responses": [
+        "Nit agartala is highly decorated autonomous engineering college that comes under MoE",
+        "here is link to vitural tour of nit Agartala https://www.youtube.com/watch?v=7Y_o8qspLUs"
+      ]
+    },
+    {
+      "tag": "Food",
+      "patterns": [
+        "where is canteen",
+        "i want food ",
+        "where i can get snacks ",
+        "i am hungry ",
+        "i need something to eat "
+      ],
+      "responses": [
+        "there are two canteens one is near by RNT hostel",
+        "you can find something to eat in gargi amul",
+        "visit shopping complex near gate 3",
+        "you can go to shopping complex for snacks",
+        "visit amul / shopping complex / gate 2"
+      ]
+    },
+    {
+      "tag": "Make-up Exam",
+      "patterns": [
+        "How we can apply for makeup exam?",
+        "make up exam application procedure",
+        "what can I do if I miss my mid term exam?",
+        "I missed my mid term"
+      ],
+      "responses": [
+        "Collect makeup forms from examination section in academic block. Get it signed from designated faculty. Complete this process within 15 days after completion of mid semester exams."
+      ]
+    },
+    {
+      "tag": "Clubs",
+      "patterns": [
+        "Clubs in NIT Agartala",
+        "Good clubs in NIT Agartala",
+        "clubs"
+      ],
+      "responses": [
+        "Coding club, Robotics, Literature, Fine Arts, E-cell"
+      ]
+    },
+    {
+      "tag": "Leave Application",
+      "patterns": [
+        "hostel leave application",
+        "Leave from hostel"
+      ],
+      "responses": [
+        "mis -> Hostel -> Leave Application"
+      ]
+    },
+    {
+      "tag": "Printout",
+      "patterns": [
+        "printout",
+        "Xerox",
+        "Where can I get printout?",
+        "printout available"
+      ],
+      "responses": [
+        "You can find printout/xerox stores in shopping complex, beside science block, near SAC building"
       ]
     }
   ]

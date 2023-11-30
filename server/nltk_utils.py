@@ -42,7 +42,13 @@ def bag_of_words(tokenized_sentence, words):
 
     return bag
 
-a = "how long does the shipping take?"
-print(a)
-a = tokenize(a)
-print(a)
+# a = "is anyone there ? "
+# print("original sentence :",a)
+# a = tokenize(a)
+# print("tokenized sentence :", a)
+
+# words = ["organize", "organizes", "organizing"]
+# print("original words :", words)
+# words = [stem(w) for w in words]
+# print("stemmed words :", words)
+
