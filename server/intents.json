@@ -177,6 +177,114 @@
       "responses": [
         "You can find printout/xerox stores in shopping complex, beside science block, near SAC building"
       ]
-    }
+    },
+    {
+      "tag": "Monday Breakfast",
+      "patterns": [
+        "Monday Breakfast",
+        "Monday Morning",
+        "What is served as breakfast on monday morning",
+        "What's monday morning breakfast",
+      ],
+      "response": [
+        "Methi paratha / Onion paratha(Alternate), Sabji(Aloo white matar), Milk(100ml)"
+      ]
+    },
+     {
+      "tag": "tuesday Breakfast",
+      "patterns": [
+        "Tuesday Breakfast",
+        "TUesday Morning",
+        "What is served as breakfast on tuesday morning",
+        "What's tuesday morning breakfast",
+      ],
+      "response": [
+        "Bread, Butter and Jam(Both according to preference), Boiled egg (Non-veg) / Paneer pakora(veg), Banana"
+      ]
+    },
+     {
+      "tag": "Wednesday Breakfast",
+      "patterns": [
+        "Wednesday Breakfast",
+        "Wednesday Morning",
+        "What is served as breakfast on wednesday morning",
+        "What's wednesday morning breakfast",
+      ],
+      "response": [
+        "Dal puri, Aloo white matar sabji / Aloo chana sabzi [alternate week], (seasonal fruit 3 times in a month)"
+      ]
+    },
+     {
+      "tag": "Thursday Breakfast",
+      "patterns": [
+        "Thursday Breakfast",
+        "Thursday Morning",
+        "What is served as breakfast on thursday morning",
+        "What's thursady morning breakfast",
+      ],
+      "response": [
+        "Sandwich, Egg bhurji (non-veg) / Paneer bhurji (veg), banana"
+      ]
+    },
+     {
+      "tag": "Friday Breakfast",
+      "patterns": [
+        "Friday Breakfast",
+        "Friday Morning",
+        "What is served as breakfast on friday morning",
+        "What's friday morning breakfast",
+      ],
+      "response": [
+        "Uttapam, Sambar, Banana, coconut(fresh) / peanut chutney[alternate week]"
+      ]
+    },
+     {
+      "tag": "Saturday Breakfast",
+      "patterns": [
+        "Saturday Breakfast",
+        "Saturday Morning",
+        "What is served as breakfast on Saturday morning",
+        "What's saturday morning breakfast",
+      ],
+      "response": [
+        "Dosa, Sambar, coconut[fresh]/ peanut chutney[alternate week]"
+      ]
+    },
+     {
+      "tag": "Sunday Breakfast",
+      "patterns": [
+        "Sunday Breakfast",
+        "Sunday Morning",
+        "What is served as breakfast on sunday morning",
+        "What's sunday morning breakfast",
+      ],
+      "response": [
+        "Aloo Paratha, Badam chutney + chana dal(winter seasonal chutney)(Dhana, tomato, chilli) / Chole Bhature[alternate week]"
+      ]
+    },
+    {
+      "tag": "Sunday lunch",
+      "patterns": [
+        "Sunday lunch",
+        "Sunday afternoon",
+        "What is served as lunch on sunday afternoon",
+        "What's sunday afternoon lunch",
+      ],
+      "response": [
+        "Veg Pulao(with ghee), French fries, Malai Kofta, Roti, papad"
+      ]
+    },
+    {
+      "tag": "saturday lunch",
+      "patterns": [
+        "Saturday lunch",
+        "Saturday afternoon",
+        "What is served as lunch on saturday afternoon",
+        "What's saturday afternoon lunch",
+      ],
+      "response": [
+        "Plain Rice, Roti, Papad, Masoor dal, rajma, seasonal fry"
+      ]
+    },
   ]
 }
