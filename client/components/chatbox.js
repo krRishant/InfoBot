@@ -134,18 +134,18 @@ const ChatBox = () => {
                         <img src='https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg' />
                       </div>
                     </div>
-                    <div className='chat-header'>You</div>
+                    <div className='chat-header' style={{color:"black"}}>You</div>
                     <div className='chat-bubble '>{message.text}</div>
                   </div>
                 ) : (
                   <div className='chat chat-start'>
                     <div className='chat-image avatar'>
                       <div className='w-10 rounded-full'>
-                        <img src='https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg' />
+                        <img src='https://static.vecteezy.com/system/resources/previews/004/996/790/non_2x/robot-chatbot-icon-sign-free-vector.jpg' />
                       </div>
                     </div>
-                    <div className='chat-header'>InfoBot</div>
-                    <div className='chat-bubble'>{message.text}</div>
+                    <div className='chat-header' style={{color:"black"}}>Info_Bot</div>
+                    <div className='chat-bubble' style={{ overflowWrap:"break-word"}}>{message.text}</div>
                   </div>
                 )}
               </div>

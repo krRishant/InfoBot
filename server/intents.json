@@ -19,11 +19,7 @@
     },
     {
       "tag": "goodbye",
-      "patterns": [
-        "Bye",
-        "See you later",
-        "Goodbye"
-      ],
+      "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -52,10 +48,7 @@
         "What kinds of items are there?",
         "What do you sell?"
       ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
     },
     {
       "tag": "funny",
@@ -84,13 +77,8 @@
     },
     {
       "tag": "department",
-      "patterns": [
-        "How many departments are there?",
-        "no of departments?"
-      ],
-      "responses": [
-        "there are total 15 departments in NITA"
-      ]
+      "patterns": ["How many departments are there?", "no of departments?"],
+      "responses": ["there are total 15 departments in NITA"]
     },
     {
       "tag": "Bad words",
@@ -107,13 +95,10 @@
     },
     {
       "tag": "college ",
-      "patterns": [
-        "Nit agartala tell me about",
-        "Nit agartala ?"
-      ],
+      "patterns": ["Nit agartala tell me about", "Nit agartala ?"],
       "responses": [
         "Nit agartala is highly decorated autonomous engineering college that comes under MoE",
-        "here is link to vitural tour of nit Agartala https://www.youtube.com/watch?v=7Y_o8qspLUs"
+        "here is link to vitural tour of nit Agartala <a href='https://www.youtube.com/watch?v=7Y_o8qspLUs'> </a>'"
       ]
     },
     {
@@ -152,19 +137,12 @@
         "Good clubs in NIT Agartala",
         "clubs"
       ],
-      "responses": [
-        "Coding club, Robotics, Literature, Fine Arts, E-cell"
-      ]
+      "responses": ["Coding club, Robotics, Literature, Fine Arts, E-cell"]
     },
     {
       "tag": "Leave Application",
-      "patterns": [
-        "hostel leave application",
-        "Leave from hostel"
-      ],
-      "responses": [
-        "mis -> Hostel -> Leave Application"
-      ]
+      "patterns": ["hostel leave application", "Leave from hostel"],
+      "responses": ["mis -> Hostel -> Leave Application"]
     },
     {
       "tag": "Printout",
@@ -184,81 +162,81 @@
         "Monday Breakfast",
         "Monday Morning",
         "What is served as breakfast on monday morning",
-        "What's monday morning breakfast",
+        "What's monday morning breakfast"
       ],
-      "response": [
+      "responses": [
         "Methi paratha / Onion paratha(Alternate), Sabji(Aloo white matar), Milk(100ml)"
       ]
     },
-     {
+    {
       "tag": "tuesday Breakfast",
       "patterns": [
         "Tuesday Breakfast",
         "TUesday Morning",
         "What is served as breakfast on tuesday morning",
-        "What's tuesday morning breakfast",
+        "What's tuesday morning breakfast"
       ],
-      "response": [
+      "responses": [
         "Bread, Butter and Jam(Both according to preference), Boiled egg (Non-veg) / Paneer pakora(veg), Banana"
       ]
     },
-     {
+    {
       "tag": "Wednesday Breakfast",
       "patterns": [
         "Wednesday Breakfast",
         "Wednesday Morning",
         "What is served as breakfast on wednesday morning",
-        "What's wednesday morning breakfast",
+        "What's wednesday morning breakfast"
       ],
-      "response": [
+      "responses": [
         "Dal puri, Aloo white matar sabji / Aloo chana sabzi [alternate week], (seasonal fruit 3 times in a month)"
       ]
     },
-     {
+    {
       "tag": "Thursday Breakfast",
       "patterns": [
         "Thursday Breakfast",
         "Thursday Morning",
         "What is served as breakfast on thursday morning",
-        "What's thursady morning breakfast",
+        "What's thursady morning breakfast"
       ],
-      "response": [
+      "responses": [
         "Sandwich, Egg bhurji (non-veg) / Paneer bhurji (veg), banana"
       ]
     },
-     {
+    {
       "tag": "Friday Breakfast",
       "patterns": [
         "Friday Breakfast",
         "Friday Morning",
         "What is served as breakfast on friday morning",
-        "What's friday morning breakfast",
+        "What's friday morning breakfast"
       ],
-      "response": [
+      "responses": [
         "Uttapam, Sambar, Banana, coconut(fresh) / peanut chutney[alternate week]"
       ]
     },
-     {
+    {
       "tag": "Saturday Breakfast",
       "patterns": [
         "Saturday Breakfast",
         "Saturday Morning",
         "What is served as breakfast on Saturday morning",
-        "What's saturday morning breakfast",
+        "What's saturday morning breakfast"
       ],
-      "response": [
+      "responses": [
         "Dosa, Sambar, coconut[fresh]/ peanut chutney[alternate week]"
       ]
     },
-     {
+    {
       "tag": "Sunday Breakfast",
       "patterns": [
         "Sunday Breakfast",
         "Sunday Morning",
         "What is served as breakfast on sunday morning",
-        "What's sunday morning breakfast",
+        "What's sunday morning breakfast"
       ],
-      "response": [
+      "responses": [
         "Aloo Paratha, Badam chutney + chana dal(winter seasonal chutney)(Dhana, tomato, chilli) / Chole Bhature[alternate week]"
       ]
     },
@@ -268,9 +246,9 @@
         "Sunday lunch",
         "Sunday afternoon",
         "What is served as lunch on sunday afternoon",
-        "What's sunday afternoon lunch",
+        "What's sunday afternoon lunch"
       ],
-      "response": [
+      "responses": [
         "Veg Pulao(with ghee), French fries, Malai Kofta, Roti, papad"
       ]
     },
@@ -280,11 +258,217 @@
         "Saturday lunch",
         "Saturday afternoon",
         "What is served as lunch on saturday afternoon",
-        "What's saturday afternoon lunch",
+        "What's saturday afternoon lunch"
       ],
-      "response": [
-        "Plain Rice, Roti, Papad, Masoor dal, rajma, seasonal fry"
+      "responses": ["Plain Rice, Roti, Papad, Masoor dal, rajma, seasonal fry"]
+    },
+    {
+      "tag": "Supervisor",
+      "patterns": [
+        "Who is the supervisor of gargi?",
+        "Can I know contact details of gargi supervisor?",
+        "Gargi supervisors",
+        "Supervisor contact details",
+        "Supervisors of gargi"
+      ],
+      "responses": [
+        "There are two supervisors of Gargi. Mahoya mam and her contact is 9xxxxxxxx4. Rumita mam and her contact is 6xxxxxxxx4"
       ]
     },
+    {
+      "tag": "Warden",
+      "patterns": [
+        "Who is the warden of gargi?",
+        "Can I know contact details of gargi's warden?",
+        "Gargi wardens",
+        "Warden contact details",
+        "Wardens of gargi"
+      ],
+      "responses": [
+        "There are two wardens of Gargi. Ranjita Das mam and her contact is ranjita.nitm@gmail.com. Shikha Maurya mam and her contact is drshikha.ece@nita.ac.in"
+      ]
+    },
+    {
+      "tag": "hostel fee",
+      "patterns": [
+        "Hostel fee payment",
+        "How much is my hostel fee?",
+        "What is the process of hostel fee payment?",
+        "Fee payment details",
+        "Hostel fee"
+      ],
+      "responses": [
+        "The process to know and pay your hostel fee is to go to your mis -> ONLINE PAYMENT -> SBI E PAY -> common payment interface. (Note: If you are joining hostel for the first time you have to pay your initial hostel fee of 7000/-)"
+      ]
+    },
+    {
+      "tag": "Leave application",
+      "patterns": [
+        "Leave application",
+        "How to take an emergency leave from hostel",
+        "What is the process to apply for leave?",
+        "How can I get my leave approved immediately",
+        "Hostel leave"
+      ],
+      "responses": [
+        "To apply your leave go to your mis -> HOSTEL -> Transaction -> Leave application. (Note: This is only applicable when you apply 5 days prior to leaving. If it's an emergency fill the emergency leave application and get it signed by HOD, supervisor, Warden, Chief Warden.)"
+      ]
+    },
+    {
+      "tag": "Mess timing",
+      "patterns": [
+        "Mess timing",
+        "What are the mess timings?",
+        "When is food available in mess?",
+        "Timing to get food in mess",
+        "Mess open timings"
+      ],
+      "responses": [
+        "Mess available timings: Breakfast -> 7 AM to 9 AM(7 AM to 9:30 AM on weekend), Lunch -> 12:30 PM TO 2:30 PM, Dinner -> 7:30 PM to 9PM"
+      ]
+    },
+    {
+      "tag": "hostel rules",
+      "patterns": [
+        "Hostel rules",
+        "What are the rules of hostel",
+        "Activities which are not allowed in hostel",
+        "Rules and regulations of hostel",
+        "Hostel intime"
+      ],
+      "responses": [
+        "You must stay inside the hostel after 7 PM in winter and after 7:30 PM in summer. You must sign your attendance before your intime every day. You are not allowed to use electrical appliances like heaters, induction stoves, hair styling tools etc."
+      ]
+    },
+    {
+      "tag": "Blocks",
+      "patterns": [
+        "No of blocks available in gargi",
+        "Blocks in gargi",
+        "What are the blocks present in gargi",
+        "In which will I stay in gargi",
+        "Gargi blocks"
+      ],
+      "responses": [
+        "There are five blocks present in gargi hostel. Mtech and PhD students will be allotted E1 block. 1st years will be allotted E2 block. 2nd years will be allotted E4 block. 3rd years will be allotted E3 block. 4th years will be allotted E5 block."
+      ]
+    },
+    {
+      "tag": "Cycle allotment",
+      "patterns": [
+        "Cycle allotment",
+        "What is the cycle allotment process",
+        "How can I get a cycle?",
+        "I want a cycle",
+        "Are cycles available in gargi hostel"
+      ],
+      "responses": [
+        "If you want a cycle, write an application letter and get it approved by your HOD and submit it to your supervisor. If a cycle is available you will be allotted one. You have to do the same every semester (Note: There are limited number cycles which are divided among all the years. So hurry up!)"
+      ]
+    },
+    {
+      "tag": "Cleaning dates",
+      "patterns": [
+        "Cleaning dates",
+        "What are the cleaning dates of hostel",
+        "How frequently cleaning is done in hostel",
+        "How many days per week cleaning is done",
+        "Hostel hygiene"
+      ],
+      "responses": [
+        "Rooms, corridors and washrooms will be cleaned on every Monday, Wednesday and Friday"
+      ]
+    },
+    {
+      "tag": "mess committee",
+      "patterns": [
+        "Mess committee",
+        "Members of mess committee",
+        "Who are the members of mess committee",
+        "What does mess committee do?",
+        "What is mess committee"
+      ],
+      "responses": [
+        "Members of mess committee are Krishna, Anjura, Megha Sikder, Athithi Kumari, Gargi Jaiswal, Nipobithi, Purba, Shreya, Anjali, Bhumi Gowtham, Adithi Manoj Thakur. They ensure that the quality and quantity measures, mess menu are properly followed."
+      ]
+    },
+    {
+      "tag": "Vice President",
+      "patterns": [
+        "Vice President",
+        "Who is the vice president",
+        "Vice president of girls",
+        "VP",
+        "Girls VP"
+      ],
+      "responses": ["Raheena Bin Mohammad is Vice President of Girls."]
+    },
+    {
+      "tag": "Medical facility",
+      "patterns": [
+        "Emergency medical help",
+        "Doctors availability timings",
+        "Medical facility in gargi hostel",
+        "Hospital timings"
+      ],
+      "responses": [
+        "Medical facility is available in NITA hospital for all the students. For further details contact: 90******23"
+      ]
+    },
+    {
+      "tag": "ambulance number",
+      "patterns": [
+        "Medical emergency",
+        "Ambulance contact",
+        "Emergency contact",
+        "Hospital ambulance details"
+      ],
+      "responses": [
+        "Ambulance contact: 8837274038 AND inform supervisor on number: 90*******46"
+      ]
+    },
+    {
+      "tag": "Extension application",
+      "patterns": [
+        "Intime extension application process",
+        "How to apply for intime extension",
+        "Intime extension procedure"
+      ],
+      "responses": [
+        "Write an application letter (INFOMRMING CAUSE OF DELAY) to the current hostel warden and submit the approval to reception"
+      ]
+    },
+    {
+      "tag": "hostel complaints",
+      "patterns": [
+        "How to give mess complaint",
+        "How to give room complaint",
+        "How to give mass complaint",
+        "How to give a water complaint",
+        "How to give electricity complaint"
+      ],
+      "responses": [
+        "For MESS complaints, write a mess complaint register available at mess. For room, washroom, and water-related complaints - BLOCK COMPLAINT REGISTER. Further details contact VP on: 80********32"
+      ]
+    },
+    {
+      "tag": "room allotment",
+      "patterns" :[ 
+        "Room allotment process",
+        "how will i get room in gargi"
+      ],
+      "responses" :[
+        "After hostel fee payment, goto MIS >> HOSTEL >> TRANSACTION >> AUTOMATIC ROOM ALLOTMENT"
+      ]
+    },{
+      "tag": "room vaccating process",
+      "patterns": [
+        "what is room vaccating process",
+        "how do i drop out of hostel"
+      ],
+      "responses":[
+        "Write an application to chief Warden along with hostel leave form and attach your bank passbook. submit it to chief wardern office and a copy to hostel supervisor"
+      ]
+    }
   ]
 }

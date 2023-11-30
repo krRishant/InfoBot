@@ -42,9 +42,12 @@ def chat_manager(string):
 
 
     tag = tags[predicted.item()]
+    print (tag)
 
     probs = torch.softmax(output, dim=1)
+    # print(probs)
     prob = probs[0][predicted.item()]
+    # print (prob)
     if prob.item() > 0.6:
         for intent in intents['intents']:
             if tag == intent["tag"]:
